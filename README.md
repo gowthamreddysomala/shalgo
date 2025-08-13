@@ -1,7 +1,7 @@
 
 Shamir's Secret Solver 🔑
 A Java implementation to uncover a polynomial's secret using Lagrange Interpolation. This project solves a version of Shamir's Secret Sharing, where a secret is encoded as the constant term of a polynomial.
-
+<br>
 📖 Project Overview
 This program solves for the constant term c of an unknown polynomial given a set of points (roots) that lie on its curve. It's a classic cryptographic challenge that demonstrates how a secret can be split into multiple "shares," requiring a minimum number of them to be brought together to reconstruct the original secret.
 
