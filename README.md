@@ -9,7 +9,7 @@ The project is built to handle two specific challenges:
 
 Large Number Arithmetic: The polynomial's coefficients can be up to 256-bit integers, requiring the use of java.math.BigInteger for all calculations.
 
-Multi-Base Value Decoding: The input points are provided in a JSON format where the y values are encoded in various number bases (e.g., binary, hexadecimal, base 10).
+Multi-Base Value Decoding: The input points are provided in a Json format where the y values are encoded in various number bases (e.g., binary, hexadecimal, base 10).
 
 ✨ Features
 Polynomial Secret Recovery: Implements Lagrange Interpolation to find the secret value c (the polynomial's value at x=0).
